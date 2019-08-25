@@ -1,0 +1,738 @@
+/*Common CSS start*/
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+.full_wrapper{
+    width: 100%;
+}
+.container{
+    width:940px ;
+    margin: 0 auto;
+}
+/*Common CSS end*/
+/*Menubar css design start*/
+.full_menu{
+    height: 100px;
+}
+.full_menu{
+    position: absolute;
+    content: '';
+    top:0;
+    left:0;
+    background: rgba(255, 255, 255, 0);
+}
+.menu{
+    height: 100px;
+    display: flex;
+    line-height: 100px;
+}
+.logo{
+    width: 118px;
+    height: 100px;
+}
+.logo h1 a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.gap{
+    width: 364px;
+    height: 100px;
+}
+.menubar{
+    width: 405px;
+    height: 100px;
+}
+.menubar ul{
+    display: flex;
+}
+.menubar ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-right: 44px;
+    transition: 0.4s all linear;
+    -webkit-transition: 0.4s all linear;
+    -moz-transition: 0.4s all linear;
+    -o-transition: 0.4s all linear;
+    -ms-transition: 0.4s all linear;
+}
+.menubar ul li a:hover{
+   color: #616161;
+}
+.social{
+    width: 53px;
+    height: 100px;
+    display: flex;
+}
+.social .i2{
+    padding-right: 21px;
+}
+.social .i2 a i{
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.4s all linear;
+    -webkit-transition: 0.4s all linear;
+    -moz-transition: 0.4s all linear;
+    -o-transition: 0.4s all linear;
+    -ms-transition: 0.4s all linear;
+}
+.social .i2 a i:hover{
+   color: #616161;
+}
+.social a i{
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.4s all linear;
+    -webkit-transition: 0.4s all linear;
+    -moz-transition: 0.4s all linear;
+    -o-transition: 0.4s all linear;
+    -ms-transition: 0.4s all linear;
+}
+.social a i:hover{
+   color: #616161;
+}
+/*Menubar css design end*/
+/*Cover css design start*/
+.full_cover{
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 317px;
+    padding-bottom: 216px;
+}
+.cover h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 14px;
+    padding-right: 380px;
+}
+.cover h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+.btn1{
+    float: left;
+    margin-right: 26px;
+}
+.btn1 a{
+    padding: 9px 26px;
+    border: 2px solid #b3b4b4;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    transition: 0.4s all linear;
+    -webkit-transition: 0.4s all linear;
+    -moz-transition: 0.4s all linear;
+    -o-transition: 0.4s all linear;
+    -ms-transition: 0.4s all linear;
+}
+.btn1 a:hover{
+   background: #e92121;
+    border: 2px solid #e92121;
+}
+.btn2{
+    float: left;
+}
+.btn2 a{
+    padding: 9px 26px;
+    border: 2px solid #b3b4b4;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    transition: 0.4s all linear;
+    -webkit-transition: 0.4s all linear;
+    -moz-transition: 0.4s all linear;
+    -o-transition: 0.4s all linear;
+    -ms-transition: 0.4s all linear;
+}
+.btn2 a:hover{
+   background: #e92121;
+   border: 2px solid #e92121;
+}
+/*Cover css design end*/
+/*About section css design start*/
+.about:after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: #dbe1dd;
+    top:1185px;
+    left:0;
+}
+.about1{
+    float: left;
+    padding: 100px 0px;
+    height: 330px;
+    width: 470px;
+}
+.about1 h2{
+    padding-right: 272px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #464646;
+    padding-top: 37px;
+}
+.about2{
+    float: left;
+    padding: 100px 0px;
+    height: 330px;
+    width: 470px;
+}
+.p1{
+    margin-bottom: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #b7b7b7;
+    text-align: justify;
+}
+.p2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #b7b7b7;
+    text-align: justify;
+}
+/*About section css design end*/
+/*Work section css design start*/
+.full_work{
+    
+}
+.work{
+   padding: 108px 0px 96px 0px;
+}
+.work h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #464646;
+    text-align: center;
+}
+.work p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #b7b7b7;
+    padding-bottom: 134px;
+    text-align: center;
+}
+.work img{
+    padding-top: 11px;
+    padding-bottom: 22px;
+    padding-left: 437px;
+}
+.workc{
+    height: 511px;
+    width: 100%;
+}
+.workc1{
+    height: 207px;
+    width: 28.58%;
+    margin-bottom: 97px;
+    margin-right: 67px;
+    float: left;
+}
+.workc1:nth-child(3){
+    margin-right: 0px !important;
+}
+.workc1:last-child{
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+}
+.workc1:nth-child(4){
+    margin-bottom: 0px !important;
+}
+.workc1:nth-child(5){
+    margin-bottom: 0px !important;
+}
+.workc1 i{
+    font-size: 54px;
+    color: #e92121;
+}
+.workc1 h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #464646;
+    padding: 25px 0px 15px 0px;
+    padding-right: 10px;
+}
+.workc1 h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #b7b7b7;
+}
+/*Work section css design end*/
+/*Diamond section css design start*/
+.full_diamond{
+    background: #faf9f9;
+}
+.slider1{
+    float: left;
+}
+.slider1 a i{
+    margin-top: 305px;
+    margin-left: 44px;
+    color: #7b7b7b;
+    font-size: 20px;
+}
+.slider2{
+    float: right;
+}
+.slider2 a i{
+    margin-top: 265px;
+    margin-right: 20px;
+    color: #7b7b7b;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    line-height: 80px;
+    background: #ffffff;
+    font-size: 20px;
+}
+.d1{
+    height:400px;
+    width: 470px;
+    padding: 110px 0px;
+    float:left;
+}
+.d1 img{
+    height: 400px;
+    width: 400px;
+}
+.d2{
+    height:400px;
+    width: 470px;
+    padding: 110px 0px;
+    float:left;
+}
+.d2 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #464646;
+    padding-top: 50px;
+}
+.d2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #b7b7b7;
+    padding-bottom: 35px;
+}
+.d2 img{
+    padding-top: 11px;
+    padding-bottom: 22px;
+}
+.d2 a{
+    padding: 9px 26px;
+    border: 2px solid #b3b4b4;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #e92121;
+    transition: 0.4s all linear;
+    -webkit-transition: 0.4s all linear;
+    -moz-transition: 0.4s all linear;
+    -o-transition: 0.4s all linear;
+    -ms-transition: 0.4s all linear;
+}
+.d2 a:hover{
+    color: #ffffff;
+    background: #e92121;
+    border: 2px solid #e92121;
+}
+/*Diamond section css design end*/
+/*Quality section css design start*/
+.q1{
+    padding: 100px 0px;
+    float: left;
+    height: 312px;
+    width: 400px;
+}
+.q1 h3{
+    padding: 64px 0 74px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #464646;
+    padding-right: 188px;
+}
+.q2{
+    padding: 100px 0px;
+    float: left;
+    height: 312px;
+    width: 540px;
+}
+.qm{
+    height: 120px;
+    width: 40.28%;
+    margin-bottom: 72px;
+    margin-right: 105px;
+    float: left;
+}
+.qm:last-child{
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+.qm:nth-child(2){
+    margin-right: 0px;
+}
+.qm:nth-child(3){
+    margin-bottom: 0px;
+}
+.qm h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #464646;
+}
+.qm p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #b7b7b7;
+    margin-top: 23px;
+}
+/*Quality section css design end*/
+/*Jewel section css design start*/
+.jewels{
+    height: 470px;
+    width: 940px;
+}
+.jew{
+    width: 25%;
+    height: 235px;
+    float:left;
+}
+.jew1{
+    width: 50%;
+    height: 235px;
+    float:left;
+}
+.jew1 h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #464646;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.jew1 img{
+    margin-top: 57px;
+    margin-left: 25px;
+}
+/*Jewel section css design end*/
+/*Jewel para section css design start*/
+.para1{
+    padding-top: 53px;
+    padding-bottom: 100px;
+    width: 48.93%;
+    float:left;
+    padding-right: 10px;
+}
+.para1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #b7b7b7;
+}
+/*Jewel para section css design end*/
+/*comment section css design start*/
+.full_comment{
+    background: #faf9f9;
+}
+.comment{
+   padding: 60px 0px 18px 0px;
+}
+.comment h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #464646;
+    text-align: center;
+}
+.comment p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #b7b7b7;
+    padding-bottom: 63px;
+    text-align: center;
+}
+.comment img{
+    padding-top: 11px;
+    padding-bottom: 15px;
+    padding-left: 437px;
+}
+.comc{
+    height: 511px;
+    width: 100%;
+}
+.comc1{
+    height: 207px;
+    width: 28.58%;
+    margin-bottom: 50px;
+    margin-right: 67px;
+    float: left;
+}
+.comc1:nth-child(3){
+    margin-right: 0px !important;
+}
+.comc1:last-child{
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+}
+.comc1:nth-child(4){
+    margin-bottom: 0px !important;
+}
+.comc1:nth-child(5){
+    margin-bottom: 0px !important;
+}
+.comc1 i{
+    font-size: 14px;
+    height: 38px;
+    width: 38px;
+    color:#ffffff;
+    border-radius: 50%;
+    background: #e92121;
+    text-align: center;
+    line-height: 38px;
+    display: inline-block;
+}
+.comc1 h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #464646;
+    padding-left: 22px;
+    padding-right: 10px;
+    display: inline-block;
+}
+.comc1 h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 65px;
+    font-weight: 300;
+    color: #b7b7b7;
+}
+.comc1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 65px;
+    font-weight: 300;
+    color: #b7b7b7;
+    text-align: left;
+    padding-top: 11px;
+}
+/*comment section css design end*/
+/*blog section css design start*/
+.blog{
+    padding-top: 100px;
+    height: 470px;
+    width: 940px;
+}
+.blog .jew{
+    width: 25%;
+    height: 235px;
+    float:left;
+}
+.blog .jew1{
+    width: 50%;
+    height: 235px;
+    float:left;
+}
+.blog .jew1 h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #464646;
+    margin-top: 40px;
+    margin-left: 0;
+}
+.blog .jew1 img{
+    margin-top: 57px;
+    margin-left: 0;
+}
+/*blog section css design end*/
+/*blog para section css design start*/
+.blog_para .para .para1{
+    padding-top: 53px;
+    padding-bottom: 100px;
+    width: 48.93%;
+    float:left;
+    padding-right: 10px;
+}
+.blog_para .para .para1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #b7b7b7;
+}
+/*blog para section css design end*/
+/*footer head section css design end*/
+.full_fhead{
+    height: 175px;
+    width: 100%;
+    background: #141414;
+}
+.abc {
+    height: 100%;
+    width:776px; 
+    float: left;
+}
+.abc a{
+    line-height: 175px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.socials{
+    float: left;
+}
+.socials ul li {
+    float: left;
+    padding-right: 23px;
+    line-height: 175px;
+}
+.socials ul li a{
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.4s all linear;
+    -webkit-transition: 0.4s all linear;
+    -moz-transition: 0.4s all linear;
+    -o-transition: 0.4s all linear;
+    -ms-transition: 0.4s all linear;
+}
+.socials ul li a:hover{
+   color: #616161;
+}
+/*footer head section css design end*/
+/*footer section css design start*/
+.full_footer{
+    height: 165px;
+    width: 100%;
+    background: #141414;
+}
+.footer{
+    height: 100%;
+    width:940px;
+}
+.f1{
+    height: 100%;
+    width:220px;
+    float: left;
+}
+.f1 h4 a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #474747;
+    padding-bottom: 15px;
+    position: relative;
+}
+.f1 h4 a:after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 112px;
+    background: #474747;
+    top:19px;
+    left:0;
+}
+.f1 h5 a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #474747;
+    padding-bottom: 15px;
+}
+.f1 h6 a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #474747;
+    padding-bottom: 15px;
+}
+.f2{
+    height: 100%;
+    width:500px;
+    float: left;
+}
+.f2 h4 a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #474747;
+    padding-bottom: 15px;
+}
+.f2 h5 a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #474747;
+    padding-bottom: 15px;
+}
+.f2 h6 a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #474747;
+    padding-bottom: 15px;
+}
+.f3{
+    height: 100%;
+    width:220px;
+    float: left;
+}
+.f3 h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #353434;
+    padding-bottom: 5px;
+    text-align: right;
+    padding-right: 17px;
+}
+.f3 h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #353434;
+    text-align: right;
+    padding-right: 17px;
+}
+/*footer section css design end*/
